@@ -1,0 +1,43 @@
+
+FIRST NOTICE OF LOSS - SUSPICIOUS CLAIM
+
+POLICY INFORMATION
+Policy Number: AUTO-2025-456789
+Policyholder Name: David Thompson
+
+INCIDENT INFORMATION
+Date of Loss: 01/18/2025
+Time: 11:45 PM
+Location: Remote area off Highway 101, approximately 20 miles north of city limits
+
+Description of Accident:
+Vehicle allegedly struck by unknown hit-and-run driver in remote location. Claimant 
+states they were forced off road by aggressive driver who fled scene. Extensive damage 
+to multiple panels. Story seems inconsistent with damage pattern. No witnesses present. 
+Claimant delayed reporting by 36 hours. Vehicle has pre-existing damage that appears 
+staged to match claim narrative.
+
+INVOLVED PARTIES
+Claimant: David Thompson
+Phone: (555) 123-4567
+Email: d.thompson@email.com
+
+Third Party: Unknown/fled scene (alleged)
+
+ASSET DETAILS
+Asset Type: Vehicle
+VIN: 1G1ZD5ST8LF123456
+Year: 2015
+Make: Chevrolet
+Model: Malibu
+License Plate: XYZ-9876
+
+Estimated Damage: $18,500
+
+CLAIM TYPE: Auto
+Attachments: delayed_photos.zip
+
+Police Report: Not filed (claimant states they forgot)
+
+NOTES: Multiple red flags - delayed reporting, inconsistent story, suspicious damage 
+pattern, no police report, remote location with no witnesses.

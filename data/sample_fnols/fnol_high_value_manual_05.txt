@@ -1,0 +1,47 @@
+
+FIRST NOTICE OF LOSS - HIGH VALUE CLAIM
+
+POLICY INFORMATION
+Policy Number: AUTO-2025-PREMIUM-001
+Policyholder Name: Alexander Vanderbilt III
+Effective Dates: 01/01/2025 - 12/31/2025
+Line of Business: Luxury Auto
+
+INCIDENT INFORMATION
+Date of Loss: 01/25/2025
+Time: 3:45 PM
+Location: 1200 Sunset Boulevard, Beverly Hills, CA 90210
+
+Description of Accident:
+Multi-vehicle collision on boulevard. Traffic suddenly stopped due to pedestrian 
+crossing. Driver of commercial truck failed to stop in time, causing chain reaction 
+involving 4 vehicles. Significant structural damage to luxury vehicle. Airbags deployed. 
+All occupants safe but vehicle likely total loss.
+
+INVOLVED PARTIES
+Claimant: Alexander Vanderbilt III
+Phone: (310) 555-9999
+Email: avanderbilt@email.com
+
+Third Party 1: Commercial Trucking Co.
+Driver: Thomas Rodriguez
+Phone: (310) 555-8888
+Insurance: Commercial Auto Policy #TRUCK-45678
+
+ASSET DETAILS
+Asset Type: Vehicle
+VIN: WDD2222221A123456
+Year: 2024
+Make: Mercedes-Benz
+Model: S-Class S580
+License Plate: CA-LUXURY-1
+
+Estimated Damage: $75,000 (Likely Total Loss)
+Vehicle Value: $125,000
+
+CLAIM TYPE: Auto
+Attachments: scene_photos.zip, police_report.pdf, witness_statements.pdf
+
+Police Report: BHPD-2025-0125
+Witnesses: 3 independent witnesses
+Tow Location: Beverly Hills Auto Body - Secure Storage

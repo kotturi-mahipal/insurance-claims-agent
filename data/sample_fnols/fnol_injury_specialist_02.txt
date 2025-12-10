@@ -1,0 +1,45 @@
+
+FIRST NOTICE OF LOSS - INJURY CLAIM
+
+POLICY INFORMATION
+Policy Number: AUTO-2025-789012
+Policyholder Name: Robert Martinez
+Effective Dates: 06/01/2024 - 06/01/2025
+
+INCIDENT INFORMATION
+Date of Loss: 01/20/2025
+Time: 8:15 AM
+Location: Intersection of Main St and 5th Ave, Austin, TX 78701
+
+Description of Accident:
+T-bone collision at intersection. Other driver ran red light and struck passenger side 
+at moderate speed. Driver experienced neck pain and was transported to hospital for 
+evaluation. Passenger (spouse) also complained of back pain.
+
+INVOLVED PARTIES
+Claimant: Robert Martinez
+Phone: (512) 555-0789
+Email: r.martinez@email.com
+
+Injured Parties:
+- Robert Martinez (driver) - neck pain, whiplash suspected
+- Maria Martinez (passenger) - lower back pain
+
+Third Party Driver: James Wilson
+Phone: (512) 555-0321
+
+ASSET DETAILS
+Asset Type: Vehicle
+VIN: 5YJSA1E14HF123456
+Year: 2020
+Make: Tesla
+Model: Model S
+License Plate: TX-ABC-789
+
+Estimated Damage: $22,000
+
+CLAIM TYPE: Injury
+Medical Treatment: Yes - Austin Regional Medical Center
+Attachments: medical_records.pdf, scene_photos.zip
+
+Police Report: APD-2025-0120

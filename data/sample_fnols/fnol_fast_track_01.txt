@@ -1,0 +1,43 @@
+
+FIRST NOTICE OF LOSS - AUTOMOBILE CLAIM
+
+POLICY INFORMATION
+Policy Number: AUTO-2025-123456
+Policyholder Name: Sarah Johnson
+Effective Dates: 01/01/2025 - 12/31/2025
+Line of Business: Personal Auto
+
+INCIDENT INFORMATION
+Date of Loss: 01/15/2025
+Time: 2:30 PM
+Location: 456 Oak Street, San Francisco, CA 94102
+
+Description of Accident:
+Minor rear-end collision at stoplight. I was stopped at red light when vehicle behind 
+failed to brake in time. Low-speed impact, minimal damage to rear bumper.
+
+INVOLVED PARTIES
+Claimant: Sarah Johnson
+Phone: (415) 555-0123
+Email: sarah.johnson@email.com
+
+Third Party Driver: Michael Chen
+Phone: (415) 555-0456
+Insurance: State Farm, Policy #SF-789012
+
+ASSET DETAILS
+Asset Type: Vehicle
+VIN: 1HGCM82633A004352
+Year: 2023
+Make: Honda
+Model: Civic
+License Plate: 7ABC123 (CA)
+
+Estimated Damage: $8,500
+Initial Estimate: $8,500
+
+CLAIM TYPE: Auto
+Attachments: photos_rear_bumper.zip
+
+Report Filed: Yes
+Police Report #: SFPD-2025-0115

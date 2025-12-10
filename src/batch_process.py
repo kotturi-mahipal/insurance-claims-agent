@@ -29,26 +29,30 @@ class BatchProcessor:
         }
     
     def process_directory(self, input_dir: str, output_dir: str = "data/output"):
-        """Process all PDFs in a directory"""
+        """Process all files in a directory"""
         
         input_path = Path(input_dir)
-        pdf_files = list(input_path.glob("*.pdf"))
         
-        if not pdf_files:
-            print(f"⚠️  No PDF files found in {input_dir}")
+        # Get both PDF and TXT files
+        pdf_files = list(input_path.glob("*.pdf"))
+        txt_files = list(input_path.glob("*.txt"))
+        all_files = pdf_files + txt_files
+        
+        if not all_files:
+            print(f"⚠️  No files found in {input_dir}")
             return
         
         print(f"\n{'='*70}")
-        print(f"BATCH PROCESSING: {len(pdf_files)} documents")
+        print(f"BATCH PROCESSING: {len(all_files)} documents")
         print(f"{'='*70}\n")
         
-        for idx, pdf_file in enumerate(pdf_files, 1):
-            print(f"\n[{idx}/{len(pdf_files)}] Processing: {pdf_file.name}")
+        for idx, file in enumerate(all_files, 1):
+            print(f"\n[{idx}/{len(all_files)}] Processing: {file.name}")
             print("-" * 70)
             
             try:
                 # Process claim
-                result = self.agent.process_claim(str(pdf_file))
+                result = self.agent.process_claim(str(file))
                 
                 # Save individual result
                 self.agent.save_result(result, output_dir)
@@ -60,7 +64,7 @@ class BatchProcessor:
                 
                 # Store result
                 self.results.append({
-                    "filename": pdf_file.name,
+                    "filename": file.name,
                     "route": result["recommendedRoute"],
                     "status": "success"
                 })
@@ -72,7 +76,7 @@ class BatchProcessor:
                 self.stats["failed"] += 1
                 
                 self.results.append({
-                    "filename": pdf_file.name,
+                    "filename": file.name,
                     "route": None,
                     "status": "failed",
                     "error": str(e)
@@ -154,7 +158,7 @@ def main():
     )
     parser.add_argument(
         "input_dir",
-        help="Directory containing PDF files to process"
+        help="Directory containing files to process"
     )
     parser.add_argument(
         "-o", "--output-dir",

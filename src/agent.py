@@ -19,7 +19,7 @@ genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 class InsuranceClaimsAgent:
     """Main agent for processing FNOL documents"""
     
-    def __init__(self, model_name: str = "gemini-1.5-flash"):
+    def __init__(self, model_name: str = "gemini-2.5-flash"):
         self.model = genai.GenerativeModel(model_name)
         self.mandatory_fields = [
             'policyNumber', 'policyholderName', 'incidentDate', 
