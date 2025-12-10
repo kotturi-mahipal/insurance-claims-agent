@@ -8,8 +8,8 @@ An intelligent agent that automatically processes FNOL (First Notice of Loss) do
 
 ## 🎯 Features
 
-✅ **PDF Text Extraction** - Extracts text from FNOL PDFs using PyPDF2  
-✅ **AI-Powered Field Extraction** - Uses Gemini 1.5 Flash for intelligent data extraction  
+✅ **PDF Text Extraction** - Extracts text from FNOL PDFs using PyPDF  
+✅ **AI-Powered Field Extraction** - Uses Gemini 2.5 Flash for intelligent data extraction  
 ✅ **Field Validation** - Identifies missing mandatory fields automatically  
 ✅ **Smart Routing** - Routes claims based on damage amount, fraud indicators, and claim type  
 ✅ **Fraud Detection** - Flags suspicious keywords in descriptions  
@@ -19,40 +19,7 @@ An intelligent agent that automatically processes FNOL (First Notice of Loss) do
 
 ## 🏗️ Architecture
 
-```
-┌─────────────┐
-│   PDF Input │
-└──────┬──────┘
-       │
-       ▼
-┌──────────────────┐
-│ Text Extraction  │
-│    (PyPDF2)      │
-└──────┬───────────┘
-       │
-       ▼
-┌──────────────────┐
-│ Field Extraction │
-│  (Gemini 1.5)    │
-└──────┬───────────┘
-       │
-       ▼
-┌──────────────────┐
-│   Validation     │
-│ (Missing Fields) │
-└──────┬───────────┘
-       │
-       ▼
-┌──────────────────┐
-│  Smart Routing   │
-│  (Rule Engine)   │
-└──────┬───────────┘
-       │
-       ▼
-┌──────────────────┐
-│  JSON Output     │
-└──────────────────┘
-```
+![Claim Agent Data Flow](./insurance_claim_agent_flow.png)
 
 ---
 
@@ -171,24 +138,11 @@ insurance-claims-agent/
 | **OCR + NER** | Good for scanned docs | Complex setup, training needed | ⚠️ Overkill |
 | **Gemini LLM** | Context-aware, flexible, minimal setup | API costs, latency | ✅ **Best fit** |
 
-**Gemini 1.5 Flash** provides the perfect balance:
+**Gemini 2.5 Flash** provides the perfect balance:
 - ⚡ **Fast**: 200ms average response time
-- 💰 **Affordable**: $0.075 per 1M input tokens
+- 💰 **Affordable**: $0.30 per 1M input tokens
 - 🎯 **Accurate**: Handles variations in FNOL formats
 - 🔧 **No Training**: Zero-shot learning
-
----
-
-## 🎓 Skills Demonstrated
-
-Based on your resume ([Mahipal_Kotturi_Resume.pdf]()), this project showcases:
-
-✅ **Backend Development** - Python, REST API design patterns  
-✅ **Cloud Integration** - Google Cloud AI (Gemini API)  
-✅ **AI/ML** - Prompt engineering, LLM integration  
-✅ **Data Processing** - PDF parsing, JSON serialization  
-✅ **Testing** - Unit tests with pytest  
-✅ **DevOps Ready** - Dockerizable, CI/CD compatible  
 
 ---
 
@@ -213,12 +167,6 @@ pytest tests/ -v
 # With coverage
 pytest tests/ --cov=src --cov-report=html
 ```
-
----
-
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) file
 
 ---
 
