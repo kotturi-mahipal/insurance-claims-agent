@@ -9,7 +9,7 @@ import re
 from typing import Dict, List, Any
 from datetime import datetime
 import google.generativeai as genai
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 from dotenv import load_dotenv
 
 # Load environment variables

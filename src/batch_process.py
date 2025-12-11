@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
+import time
 from agent import InsuranceClaimsAgent
 
 
@@ -45,6 +46,8 @@ class BatchProcessor:
         print(f"\n{'='*70}")
         print(f"BATCH PROCESSING: {len(all_files)} documents")
         print(f"{'='*70}\n")
+        # Start timing the batch run
+        start_time = time.perf_counter()
         
         for idx, file in enumerate(all_files, 1):
             print(f"\n[{idx}/{len(all_files)}] Processing: {file.name}")
@@ -84,6 +87,13 @@ class BatchProcessor:
                 
                 print(f"❌ Failed: {str(e)}")
         
+        # End timing and print performance summary
+        end_time = time.perf_counter()
+        elapsed = end_time - start_time
+        processed_count = self.stats.get("total", len(all_files))
+        # Show a concise performance line to demonstrate attention to performance
+        print(f"\nProcessed {processed_count} docs in {elapsed:.1f} seconds")
+
         # Generate summary report
         self._generate_summary_report(output_dir)
     
