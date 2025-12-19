@@ -26,7 +26,7 @@ An intelligent agent that automatically processes FNOL (First Notice of Loss) do
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.12+
 - Google Gemini API Key ([Get one here](https://makersuite.google.com/app/apikey))
 
 ### Installation
